@@ -1,0 +1,22 @@
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-container ul {
+  display: flex;
+  gap: 56px;
+  list-style: none;
+}
+
+.navigation-container .home-li {
+  color: #f38160;
+  border-bottom: 2px solid #f38160;
+  padding-bottom: 2px;
+  line-height: 1.2;
+}
+
+.navigation-container li {
+  color: #403c39;
+  cursor: pointer;
+}

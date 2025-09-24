@@ -1,0 +1,31 @@
+.footer-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 24px;
+}
+
+.footer-list img {
+  width: 96px;
+  height: 96px;
+  padding-bottom: 24px;
+}
+
+.footer-list h2 {
+  font-size: 24px;
+  color: #403c39;
+}
+
+.footer-list span {
+  color: #909090;
+}
